@@ -1,3 +1,5 @@
+## PLEASE NOTE THIS IS A BROKEN FORK, USE AT OWN RISK ORIGINAL PROJECT IS AT THIS LINK https://gitlab.com/xdtarrexd/laravel-fortnox
+
 ## Laravel 5 Fortnox API Repository
 
 * Type-hint support.
