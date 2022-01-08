@@ -72,6 +72,6 @@ class Invoice extends BaseApi implements FortnoxInvoice
      */
     public function credit($documentNumber)
     {
-        return $this->makeRequest('put', null, $documentNumber, 'credit');
+        return $this->makeRequest('put', null, $documentNumber, 'credit')->toCollection();
     }
 }
