@@ -37,8 +37,6 @@ class FortnoxResponse
 
         $this->response = data_get($response, str_plural($resource), data_get($response, str_singular($resource), []));
 
-        Log::debug($resource);
-
     }
 
     /**
